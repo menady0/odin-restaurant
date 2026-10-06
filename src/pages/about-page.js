@@ -1,6 +1,4 @@
 export default function about() {
-  const content = document.querySelector("#content");
-  content.innerHTML = "";
   const heading = document.createElement("h1");
   heading.textContent = "About Us";
   const description = document.createElement("p");

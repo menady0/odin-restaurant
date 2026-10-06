@@ -1,6 +1,4 @@
 export default function home() {
-  const content = document.querySelector("#content");
-  content.innerHTML = "";
   const heading = document.createElement("h1");
   heading.textContent = "Welcome to Bella Roma";
   const description = document.createElement("p");

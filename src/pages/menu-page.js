@@ -1,6 +1,4 @@
 export default function menu() {
-    const content = document.querySelector("#content");
-  content.innerHTML = "";
   const heading = document.createElement("h1");
   heading.textContent = "Our Menu";
   const pizza = document.createElement("h2");
