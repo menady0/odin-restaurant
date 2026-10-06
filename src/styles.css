@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-inline: 10%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 2rem;
+}
+header span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+header button {
+  background-color: transparent;
+  border: none;
+  transition: color 0.3s, transform 0.3s;
+  margin-inline: 0.75rem;
+}
+header button:hover {
+  color: tomato;
+  transform: scale(1.2);
+}
